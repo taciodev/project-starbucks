@@ -234,8 +234,6 @@ header .line{
     background-position: center;   
  }
 
-
-
  .area4{
      display: grid;
      grid-template-columns: 450px 1fr;
@@ -253,6 +251,7 @@ header .line{
 
  .area4-img1{
      background-image: url(../img/bg3.jpg);
+     background-size: cover;
      background-position: left;
  }
 
@@ -291,6 +290,12 @@ footer a{
     .container{
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .area4-img1{
+        background-image: url(../img/bg3.jpg);
+        background-size: cover;
+        background-position: left;
     }
 }
 
